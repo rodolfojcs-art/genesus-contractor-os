@@ -4,13 +4,16 @@
  * incluidas), y la navegacion cae al index cacheado cuando no hay red.
  * Subir VERSION invalida el cache anterior. */
 
-const VERSION = 'genesus-contractor-os-v1'
+const VERSION = 'genesus-contractor-os-648f1401aa'
 const SHELL = [
   './',
   './manifest.webmanifest',
   './pwa-192.png',
   './pwa-512.png',
   './genesus-logo.png',
+  './assets/index-bHkGxeaY.css',
+  './assets/index-BSRU-uqH.js',
+  './assets/Progress3D-B_pJrhus.js',
 ]
 
 self.addEventListener('install', (event) => {
